@@ -17,8 +17,8 @@ public class Conexao {
 
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String URL = "jdbc:mysql://localhost:3306/teste";
-    private static final String USER = "danilodev";
-    private static final String PASS = "123456";
+    private static final String USER = "";
+    private static final String PASS = "";
 
     public static Connection getConnection(){
         try {
